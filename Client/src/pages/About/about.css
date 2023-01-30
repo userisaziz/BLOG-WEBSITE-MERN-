@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,100&family=Signika+Negative:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap");
+.leftcon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #dddddd;
+  flex: 6;
+}
+
+.rightcon {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #222831;
+  flex: 2;
+}
+.aboutpage {
+  height: 87vh;
+  margin: 20px;
+  display: flex;
+}
+.imge {
+  margin: 30px;
+  height: 70%;
+  width: auto;
+  border: #dddddd 5px solid;
+  box-shadow: 23px 21px 0px -4px#dddddd;
+  -webkit-box-shadow: 23px 21px 0px -4px #dddddd;
+  -moz-box-shadow: 23px 21px 0px -4px rgba(0, 0, 0, 0.32);
+}
+.abouttitle {
+  padding-left: 50px;
+  margin-top: 50px;
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  font-size: 7em;
+
+  line-height: 0.95em;
+  font-weight: 300;
+  color: #222831;
+  text-align: left;
+  text-shadow: 1px 1px black;
+  padding-top: 10px;
+}
+.aboutdesc {
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  width: 100%;
+  word-wrap: break-word;
+  font-size: 40px;
+  line-height: 1.3em;
+  font-weight: 100;
+  color: #222831;
+  opacity: 0.6;
+  text-align: left;
+  font-weight: 100;
+  padding: 10px 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+h5 {
+  font-family: "Aboreto", cursive;
+  padding-left: 50px;
+  margin-top: -10px;
+  color: #222831;
+}
